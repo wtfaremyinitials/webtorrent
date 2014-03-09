@@ -80,5 +80,8 @@
     "watch": "npm run watch-js & npm run watch-css",
     "watch-css": "stylus --use nib css/main.styl --out chrome/ --watch",
     "watch-js": "watchify . --outfile chrome/bundle.js --debug --verbose"
+  },
+  "bin": {
+     "webtorrent": "bin/webtorrent-cli.bin.js"
   }
 }
